@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: #eff8ff;
+}
+
+#canvas{
+    border: 1px solid black;
+}
+
+#image{
+    display: none;
+}
+#pop-up{
+    display: none;
+    position: absolute;
+    text-align: center;
+    width: 140px;
+    padding: 10px;
+    background-color: blueviolet;
+    top: 40vh;
+    border: 1px solid #654062;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0, 0, 0.5);
+}
+#pop-up h3{
+    color: white;
+}
+#pop-up button{
+    background-color: #ffa62b;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0, 0, 0.5);
+    padding: 5px;
+    font-size: .8rem;
+    font-weight: 700;
+}
+button:hover{
+    cursor: pointer;
+}
